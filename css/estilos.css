@@ -197,6 +197,13 @@ lottie-player {
 	right: 10px;	
 }
 
+.descarga {
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	top: 55px;
+	right: 10px;	
+}
 
 .boton {
 	background: linear-gradient(102deg, #0099ff 40%, #0099ffd2 60%);

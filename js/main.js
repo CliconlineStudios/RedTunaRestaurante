@@ -259,6 +259,39 @@ document.querySelector("#submit").addEventListener("click", e => {
         
          
         };
+
+        //ALERTAS>
+function save(){
+    let url = `https://drive.google.com/u/0/uc?id=1RQ069VHfLNLjHR3bc5ob7Fyf_hARbi97&export=download`;
+    window.open(url); 
+   }
+  
+  function ftuser() {
+      Swal.fire({
+          text: 'Restaurante Seafood',
+          imageUrl: 'img/rednegro.png',
+          imageWidth: 100,
+          confirmButtonText: 'Añadir a Contactos',
+          showCloseButton: 'true',
+          showCancelButton: true,
+          footer: 'Galápagos Santa Cruz'
+    
+      
+        }).then((result) => {
+          if (result.isConfirmed) {
+            save();
+            Swal.fire({
+              position: 'top-end',
+              icon: 'success',
+              title: 'Descarga Correcta',
+              showConfirmButton: false,
+              timer: 1500
+            })
+          }
+        })
+  
+   
+  };
     
     
     
