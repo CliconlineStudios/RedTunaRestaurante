@@ -24,7 +24,7 @@ function backweb() {
    
     if (contador==1) {
         document.getElementById("informacion").style.display = "block";
-        document.getElementById("portafolio").style.display = "none";
+        document.getElementById("menu").style.display = "none";
         document.getElementById("screen4").style.display = "none";
         document.getElementById("back").style.display = "none";
         document.getElementById("side").style.display = "none";
@@ -47,7 +47,7 @@ function inicio(){
    
     if (contador==1) {
         document.getElementById("informacion").style.display = "block";
-        document.getElementById("portafolio").style.display = "none";
+        document.getElementById("menu").style.display = "none";
         document.getElementById("screen4").style.display = "none";
         document.getElementById("back").style.display = "none";
         document.getElementById("side").style.display = "none";
@@ -78,9 +78,8 @@ var btn = document.getElementById("inicio"),
 
 function servicios() {
         document.getElementById("informacion").style.display = "none";
-        document.getElementById("portafolio").style.display = "block";
+        document.getElementById("menu").style.display = "block";
         document.getElementById("screen4").style.display = "none";
-        document.getElementById("back").style.display = "block";
         document.getElementById("side").style.display = "none";
         conta=0;
         contador=1;
@@ -90,10 +89,9 @@ function servicios() {
 
 function cotizar() {
     document.getElementById("screen4").style.display = "block";
-    document.getElementById("portafolio").style.display = "none";
+    document.getElementById("menu").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("informacion").style.display = "none";
-    document.getElementById("back").style.display = "block";
     conta=0;
     contador=1;  
     ids1();   
@@ -108,9 +106,8 @@ function back() {
 
     if (contador==1) {
         document.getElementById("informacion").style.display = "block";
-        document.getElementById("portafolio").style.display = "none";
+        document.getElementById("menu").style.display = "none";
         document.getElementById("screen4").style.display = "none";
-        document.getElementById("back").style.display = "none";
         document.getElementById("side").style.display = "none";
         conta=0;
         contador=0;
@@ -119,7 +116,6 @@ function back() {
     else{
         document.getElementById("informacion").style.display = "block";
         document.getElementById("screen4").style.display = "none";
-        document.getElementById("back").style.display = "none";
         contador=1;
 
     }}
@@ -157,28 +153,6 @@ document.querySelector('.tarjeta').addEventListener('click',()=>{
 // llevar arriba
        
 
-document.querySelector('.side')   
-.addEventListener('click',()=>{
- window.scrollTo({
- top: 0,
- behavior: 'smooth'
-});
-});
-document.querySelector('.portafolio')   
-.addEventListener('click',()=>{
- window.scrollTo({
- top: 0,
- behavior: 'smooth'
-});
-});
-
-document.querySelector('.back')   
-.addEventListener('click',()=>{
- window.scrollTo({
- top: 0,
- behavior: 'smooth'
-});
-});
 
 
 
@@ -200,8 +174,8 @@ document.querySelector("#submit").addEventListener("click", e => {
   
     let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
           *RedTuna Restaurante*%0A
-          *Solicitud*%0A
-          *Reserva a Nombre de*%0A
+          *Solicita una Reserva*%0A
+          *a Nombre de*%0A
           ${cliente}%0A
           *Fecha*%0A
           ${fecha}%0A
@@ -220,45 +194,6 @@ document.querySelector("#submit").addEventListener("click", e => {
     window.open(url);
   });
   
-
-
-        document.querySelector('.side1')   
-        .addEventListener('click',()=>{
-         window.scrollTo({
-         top: 0,
-         behavior: 'smooth'
-        });
-        });
-
-
-        document.querySelector('.side3')   
-        .addEventListener('click',()=>{
-         window.scrollTo({
-         top: 0,
-         behavior: 'smooth'
-        });
-        });
-        
-        function formu() {
-            Swal.fire({
-                title: '',
-                text: 'Centro de Desarrolo Infantil',
-                imageUrl: 'img/logolondres.png',
-                imageWidth: 150,
-                confirmButtonText: 'Inscríbete',
-                showCloseButton: 'true',
-                showCancelButton: true,
-          
-            
-              }).then((result) => {
-                if (result.isConfirmed) {
-                    cotizar();
-                
-                }
-              })
-        
-         
-        };
 
         //ALERTAS>
 function save(){
@@ -295,7 +230,18 @@ function save(){
     
     
     
-    
+  function agregar() {
+    Swal.fire({
+        title: 'Función Disponible ',
+        text: 'Próximamente',
+        imageUrl: 'img/rednegro.png',
+        imageWidth: 150,
+        footer: 'Galápagos Santa Cruz'
+     
+})
+
+ 
+};
     
       
 

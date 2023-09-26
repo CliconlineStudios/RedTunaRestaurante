@@ -17,13 +17,21 @@
 	<title>Red Tuna Restaurante</title>
 </head>
 <body id="body">
-	<div class="sidebar"><a class="menu1" id="sidebar" href="javascript:sidebar()"><span class="fa fa-bars"></span ></a>
+	<div class="sidebar"><a class="menu1" id="sidebar" href="javascript:sidebar()"><span class="fa fa-search"></span ></a>
 		<br>
 	<div class="side" id="side">
-	
+
 <a href="javascript:inicio()">Inicio</a>
+	
+<a href="javascript:inicio()">Desayuno</a>
+
+<a href="javascript:inicio()">Sanduches</a>
+
+<a href="javascript:inicio()">Hambuerguesa</a>
 		
 <a class="side1" href="javascript:cotizar()">Reservar</a>
+
+<a class="side3" href="javascript:agregar()"><span class="materialingles">g_translate</span>&nbsp;English</a>
 
 <a class="side3" href="https://cliconline.github.io/CliconlineStudios/networks.html">Network</a>
 
@@ -43,63 +51,91 @@
 			    
 		
 			<img class="portada" src="img/b11-01.png" alt="">
-
-			<a href="https://api.whatsapp.com//send?text=Enviado%20desde%20la%20App%20de%20Cliconline%20Tarjeta%20Digital%20RedTuna%20Restaurante%20https://redtunarestaurante.blogspot.com/" class="share" id="share" target="black" ><span class="material-icons">share</span></a>
-			
-			<a href="javascript:ftuser()" class="descarga" id="descarga" ><span class="material-icons">
-				person_add
-				</span></a>
-	
 					
 		 </div>
-	 <br>
+	 
 	 <!-- incio informacion -->
-
+<br>
 <section class="informacion" id="informacion">
 
 	        <img class="logo" src="img/rednegro.png"  alt="logo">
 			 <p class="titulo">Restaurante & Seafood</p>
 			 <p class="subtitulo">Galápagos - Santa Cruz</p>
-
+			 <section class="bt">
+				<a href="javascript:servicios()" class="boton" ><span class="fa fa-cutlery"></span >&nbsp;&nbsp;Ver Menú</a>
+			   </section>
+			   <br>
 			<section class="bt">
-				<a href="https://api.whatsapp.com/send?phone=593994572572&text=Hola,%20estoy%20contactando%20desde%20Red Tuna Tarjeta Digital Quiero Realizar una Reservación" class="boton" ><span class="fa fa-cutlery"></span >&nbsp;&nbsp;Reservaciones</a>
+				<a href="javascript:cotizar()" class="boton" ><span class="fa fa-calendar-check-o"></span >&nbsp;&nbsp;Reservaciones</a>
 			   </section>
 			   <br>
 			<section class="bt">
 			<a href="https://www.tripadvisor.es/UserReviewEdit-g297532-d12899017-Restaurante_Red_Tuna-Santa_Cruz_Galapagos_Islands.html" class="botont" ><span class="fa fa-tripadvisor"></span >&nbsp;Calificar</a>
 		   </section>
-		   <br>
-		   <section class="bt">
-			<a href="https://youtube.com/playlist?list=PLjsdbOsXCJDE2DHC23Pm-OSwesspQONDJ" class="botont3" ><span class="fa fa-youtube-play"></span >&nbsp;&nbsp;Videos</a>
-		   </section>
-		
+		   	
 	<br>
          <p class="qr"><img src="img/qr-code.png" alt="logoQR"></p>
 		 <p class="scan">Scan Me</p>
 		</section>
 	
-		<!-- Catalogos -->
+		<!-- menu -->
 
-		<section class="portafolio" id="portafolio">
-
-			<img class="logo" src="img/rednegro.png"  alt="logo">
-			<h3 class="subtitulo1">Secciones</h3>
-			<br>
-			<section class="bt2">
-				<a href="javascript:formu()" class="btncata" id="ctg" >boton1</a>
-			   </section>
-			   <br>
-			<section class="bt2">
-				<a href="javascript:formu()" class="btncata" id="" >boton4</a>
-			   </section>
-			   <br>
-
-			<section class="bt2">
-				<a href="javascript:formu()" class="btncata" id="" >boton3</a>
-			   </section>  
-			   <br>
-
+		<section class="menu" id="menu">
+			<h4 class="subtitulo1">DESAYUNOS / BREAKFAST</h4>
+			<div><img src="img/bolones.jpg" alt=""></div>
 			
+			<div class="cards">
+				<p class="titulom">DESAYUNO CONTINENTAL</p>
+				<p class="descriptionm">Pan al horno en mantequilla de oregano, huevo, jamon, jugo te, café o leche.</p>
+				<p class="agregarm">Price $ 8.00&nbsp;&nbsp;<a href="javascript:agregar()">Agregar</a></p>
+			</div>
+			<div class="cards">
+				<p class="titulom">BOLON MIXTO CHICHARRON Y QUESO</p>
+				<p class="descriptionm">Bistec de carne o higado, huevo, jugo o café.</p>
+				<p class="agregarm">Price $ 8.00&nbsp;&nbsp;<a href="javascript:agregar()">Agregar</a></p>
+			</div>
+			<div class="cards">
+				<p class="titulom">BOLON DE QUESO </p>
+				<p class="descriptionm">Bistec de carne o higado, huevo, jugo, café o leche..</p>
+				<p class="agregarm">Price $ 8.00&nbsp;&nbsp;<a href="javascript:agregar()">Agregar</a></p>
+			</div>
+			<div class="cards">
+				<p class="titulom">BOLON MARINERO</p>
+				<p class="descriptionm">De queso bañado en salsa cremosa de 5 mariscos.</p>
+				<p class="agregarm">Price $ 12.00&nbsp;&nbsp;<a href="javascript:agregar()">Agregar</a></p>
+			</div>
+			<h4 class="subtitulo1">SANDUCHES  / SANDWICH</h4>
+			<div><img src="img/sanduches.jpg" alt=""></div>
+			
+			<div class="cards">
+				<p class="titulom">SANDUCHE DE POLLO</p>
+				<p class="descriptionm">Filete de pechuga, pan de agua, lechuga y la salsa de la casa.</p>
+				<p class="agregarm">Price $ 8.00&nbsp;&nbsp;<a href="javascript:agregar()">Agregar</a></p>
+			</div>
+			<div class="cards">
+				<p class="titulom">SANDUCHE VEGETARIANO</p>
+				<p class="descriptionm">Pan de agua, lechuga, tomate, aguacate y zuquini o vegetales de la temporada,  vinagreta de oliva y albaca.</p>
+				<p class="agregarm">Price $ 8.00&nbsp;&nbsp;<a href="javascript:agregar()">Agregar</a></p>
+			</div>
+			<h4 class="subtitulo1">HAMBURGUESA  / BURGER</h4>
+			<div><img src="img/burger.jpg" alt=""></div>
+			<div class="cards">
+				<p class="titulom">HAMBURGUESA</p>
+				<p class="descriptionm">Sencilla de res, lechuga, tomate, queso, salsa de la casa y papas fritas.</p>
+				<p class="agregarm">Price $ 10.00&nbsp;&nbsp;<a href="javascript:agregar()">Agregar</a></p>
+			</div>
+			<div class="cards">
+				<p class="titulom">HAMBURGUESA ESPECIAL DE RES</p>
+				<p class="descriptionm">Lechuga, tomate, queso, tocino, huevo, salsa de la casay papas fritas.</p>
+				<p class="agregarm">Price $ 10.00&nbsp;&nbsp;<a href="javascript:agregar()">Agregar</a></p>
+			</div>
+			<div class="cards">
+				<p class="titulom">HAMBURGESA DE PESCADO </p>
+				<p class="descriptionm">Lechuga, tomate, ﬁlete de pescado al panko y salsa de la casa..</p>
+				<p class="agregarm">Price $ 10.00&nbsp;&nbsp;<a href="javascript:agregar()">Agregar</a></p>
+			</div>
+			<h4 class="subtitulo1"> BEBIDAS / DRINKS</h4>
+
 		 </section>
 
 <!-- screen 4  -->
@@ -109,13 +145,13 @@
 	<form action="" class="formulario">
 		<img src="img/logored.png" class="imgLogo" />
   <br>
-		<h1 class="formulario__titulo">Reservar</h1>
+		<h1 class="formulario__titulo">Reserve</h1>
 		
 		<p class="formulario__parrafo">
 			Restaurante & Seafood 
 		</p>
   <br>
-		<label for="cliente" class="formulario__label">Nombre y Apellido</label>
+		<label for="cliente" class="formulario__label">Nombre / Name</label>
 		<input
 		  id="cliente"
 		  type="text"
@@ -124,7 +160,7 @@
 		/>
   
 		<label for="fecha" class="formulario__label"
-		  >Fecha</label
+		  >Fecha / date</label
 		>
 		<input
 		  id="fecha"
@@ -134,7 +170,7 @@
 		/>
 
 		<label for="hora" class="formulario__label"
-		>Selecciona Una hora</label
+		>Hora / hour</label
 	  >
 	  <input id="hora" type="time" class="formulario__input" />
 
@@ -162,8 +198,8 @@
 
 		<footer>
 			<div><p><img src="img/click.png" alt="logo"></p>
-				<a href="https://cliconline.github.io/CliconlineStudios"><p class="rango">Tarjeta Smart</p>
-			<p>© Debeloped by CliconlineStudios ®</p></a>
+				<a href="https://cliconline.github.io/CliconlineStudios"><p class="rango">Tarjeta Diamante</p>
+			<p>© Powered by CliconlineStudios ®</p></a>
 		</div>
 		
 
@@ -174,10 +210,38 @@
 	 </section>
 	
  </div>
-
+ <br><br><br>
          <a href="javascript:back()" class="back" id="back" ><span class="material-back">
 				arrow_back_ios
 				</span></a>
+
+				<section class="navi">
+					<ul>
+						<li >
+							<a href="javascript:planes()" class="shoping"><p id="numer" class="count-product">0</p><span class="material-shop">
+								shopping_cart
+									</span></a>
+						</div>
+				
+						</li>
+						<li>
+							<a href="https://youtube.com/playlist?list=PLjsdbOsXCJDE2DHC23Pm-OSwesspQONDJ"><span class="icon" id="icon2"><span class="fa fa-youtube-play"></span ></span>
+							<span class="title"></span></a>
+						</li>
+						<li>
+							<a href="javascript:inicio()"><span class="icon" id="icon3"><span class="fa fa-home"></span ></span>
+							<span class="title"></span></a>
+						</li>
+						<li>
+							<a href="javascript:ftuser()"><span class="icon" id="icon4"><span class="fa fa-user"></span ></span>
+							<span class="title"></span></a>
+						</li>
+						<li>
+							<a href="https://api.whatsapp.com//send?text=Enviado%20desde%20la%20App%20de%20Cliconline%20Tarjeta%20Digital%20RedTuna%20Restaurante%20https://redtunarestaurante.blogspot.com/"><span class="icon5" id="icon5"><span class="fa fa-share-alt"></span ></span>
+							<span class="title"></span></a>
+						</li>
+					</ul>
+				</section>
 
 	
 				<script src="js/main.js"></script>

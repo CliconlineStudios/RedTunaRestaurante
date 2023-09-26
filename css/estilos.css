@@ -177,7 +177,8 @@ lottie-player {
 	box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
 	right: 16px;
 	bottom: 15px;
-	display: none;	
+	display: none;
+
 }
 
 
@@ -269,68 +270,70 @@ lottie-player {
 	  font-size: 12px;
 }
 
-/* ----- ----- portafolios ----- ----- */
+/* ----- ----- menu ----- ----- */
 
-.portafolio {
+.menu {
 	text-align: center;
 	display: none;
 }
 
-.portafolio .logo {
-	width: 45%;
-}
-
-.portafolio .texto1 {
-	text-align: center;
-	font-size: 18px;
-	padding: 0px 15px;
-}
-.portafolio .bt2 {
-	
-	width: 100%;
-	padding: 0px 27%;
-}
-
-
-.portafolio .btncata {
-	background: linear-gradient(102deg, #0099ff 40%, #0099ffd2 60%);
-	color: #fffffff1;
-	font-size: 12px;
-	text-align: center;
-	text-decoration: none;
-	padding: 7px 10px;
-	border-radius: 10px;
-	font-weight: bold;
-	display: block;
-	box-shadow: 0 0 0 0 rgba(0, 0, 0, .5)
-	
-}
-.btncata:hover {
-	background: linear-gradient(102deg, #0099ffa8 40%, #0099ff85 60%);
+.menu .subtitulo1 {
+	background-color: #000000;
 	color: #ffffff;
 }
 
-.boton2 {
-	background: linear-gradient(102deg, #0099ff 40%, #0099ffd2 60%);
+.menu img {
+	background-size: cover;
+	width: 100%;
+}
+
+.menu .logo {
+	width: 20%;
+	margin: 5px;
+}
+
+.menu .cards {
+	background: #130702;
+	color: #ffffff;
+	text-align: left;
+	padding: 5px;
+	margin: 2px;
+}
+
+.menu .cards p {
+	margin: 2px 5px;
+}
+
+.menu .cards .titulom {
+	color: #ff9900;
+	font-size: 12px;
+	margin: 5px,
+}
+.menu .cards .descriptionm {
+	font-size: 9px;
+}
+.menu .cards .agregarm {
+	text-align: right;
+	font-size: 11px;
+	margin: 5px,
+}
+
+.menu .cards a {
+	background: #2374f5b1;
 	color: #fffffff1;
-	font-size: 8px;
-	display: inline-block;
+	font-size: 10px;
 	text-align: center;
 	text-decoration: none;
-	padding: 4px 8%;
+	padding: 5px 15px;
 	border-radius: 10px;
-	box-shadow: 0 0 0 0 rgba(0, 0, 0, .5)
-	
+	display: inline-block;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+	font-weight: bold;	
 }
 
-
-.boton2:hover {
-	background: linear-gradient(102deg, #ffffff85 40%, #ffffff 60%);
-	color: #2a5cb9;
-	border: solid 1px #000;
-	box-shadow: 1px 1px 5px #004ec2c4;
+.menu .cards a:hover{
+	background: #00c695b1;
 }
-
 
 
 /* ----- ----- Redes Sociales ----- ----- */
@@ -433,6 +436,25 @@ footer .rango {
 	font-weight: 400;
 	src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v81/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2) format('woff2');
   }
+
+  .materialingles {
+	font-family: 'Material Icons Outlined';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	padding: 5px 4px;
+	border-radius: 10px;
+
+  }
+
   .material-icons {
 	font-family: 'Material Icons Outlined';
 	font-weight: normal;
@@ -454,27 +476,8 @@ footer .rango {
   .material-icons:hover {
 	  background-color: rgb(27, 118, 255);
   }
-
-  .material-back {
-	font-family: 'Material Icons Outlined';
-	font-weight: normal;
-	font-style: normal;
-	font-size: 22px;
-	line-height: 1;
-	letter-spacing: normal;
-	text-transform: none;
-	display: inline-block;
-	white-space: nowrap;
-	word-wrap: normal;
-	direction: ltr;
-	-webkit-font-smoothing: antialiased;
-	background: rgba(0, 0, 0, 0.562);
-	padding: 5px 4px;
-	border-radius: 10px;
-
-  }
-
-  .materialpago {
+  
+  .material-shop {
 	font-family: 'Material Icons Outlined';
 	font-weight: normal;
 	font-style: normal;
@@ -487,17 +490,11 @@ footer .rango {
 	word-wrap: normal;
 	direction: ltr;
 	-webkit-font-smoothing: antialiased;
-	background: rgba(0, 0, 0, 0.562);
 	padding: 5px 4px;
 	border-radius: 10px;
-
   }
 
 
-  .materialpago:hover{
-	  background: rgba(144, 194, 44, 0.753);
-	  color: #fff;
-  }
 
   /* screen 4 Formulario */
 
@@ -597,3 +594,110 @@ footer .rango {
   #respuesta.send {
 	color: green;
   }
+
+  /* navegacion*/
+ .navi {
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 5%;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.559);
+	backdrop-filter: blur(2px);
+	border: solid 1px rgb(255, 255, 255, 05);
+	box-shadow: 1px 1px 5px #ffffffee;
+	border-radius: 15px;
+	overflow: hidden;
+	bottom: 1px;
+	justify-content: center;
+	justify-items: center;
+	animation: pulse2 1.7s ;
+
+}
+
+@media screen  and  (min-width: 1400px){
+	.navi { 
+		background-color: rgba(247, 246, 246, 0.826);
+	  }
+  }
+
+
+.navi ul{
+	display: flex;	
+	text-align: center;
+	justify-content: center;
+	justify-items: center;
+
+}
+
+
+.navi ul li{
+	position: relative;
+	list-style: none;
+	z-index: 1;
+}
+
+
+.navi ul li {
+	list-style: none;
+	
+}
+
+.navi ul li a{
+	padding: 0px 20px;
+	font-size: 23px;
+	text-decoration: none;
+	color: #000000;
+}
+
+
+.navi ul li a:hover{
+	color: #0d8bec;
+	font-size: 27px;
+	background: #ffffff36;
+	box-shadow: 1px 2px 5px #ffffffee;
+	border-radius: 10px;
+	transition: 300ms all ease;
+
+}
+
+.shoping{
+	text-align: center;
+	text-decoration: none;
+	border-radius: 15px;
+	text-align: center;
+	justify-content: center;
+	justify-items: center;
+	display: flex;
+	
+}
+
+.shoping:hover{
+	color: #0d8bec;
+	font-size: 27px;
+	background: #ffffff36;
+	box-shadow: 1px 2px 5px #ffffffee;
+	border-radius: 10px;
+	transition: 300ms all ease;
+	
+	
+}
+
+.count-product3 {
+
+	position: fixed;
+	color: rgb(0, 0, 0);
+	padding: 5px 2px;
+	font-weight: bold;
+	
+}
+
+.count-product{
+	font-size: 14px;
+}
+
+
+
+
