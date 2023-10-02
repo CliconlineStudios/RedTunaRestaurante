@@ -97,9 +97,60 @@ function cotizar() {
     ids1();   
 };
 
+function desayuno() {
+    document.getElementById("menu").style.display = "block";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("informacion").style.display = "none";
+    document.getElementById("desayuno").scrollIntoView();
+    conta=0;
+    contador=1;  
+    ids1();   
+};
 
+function sanduches() {
+    document.getElementById("menu").style.display = "block";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("informacion").style.display = "none";
+    document.getElementById("sanduches").scrollIntoView();
+    conta=0;
+    contador=1;  
+    ids1();   
+};
 
+function hb() {
+    document.getElementById("menu").style.display = "block";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("informacion").style.display = "none";
+    document.getElementById("hambur").scrollIntoView();
+    conta=0;
+    contador=1;  
+    ids1();   
+};
 
+function platoscarta() {
+    document.getElementById("menu").style.display = "block";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("informacion").style.display = "none";
+    document.getElementById("platosc").scrollIntoView();
+    conta=0;
+    contador=1;  
+    ids1();   
+};
+
+function mariscos() {
+    document.getElementById("menu").style.display = "block";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("informacion").style.display = "none";
+    document.getElementById("mariscos").scrollIntoView();
+    conta=0;
+    contador=1;  
+    ids1();   
+};
 //   boton atras
 
 function back() {
