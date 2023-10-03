@@ -108,28 +108,6 @@ function desayuno() {
     ids1();   
 };
 
-function sanduches() {
-    document.getElementById("menu").style.display = "block";
-    document.getElementById("screen4").style.display = "none";
-    document.getElementById("side").style.display = "none";
-    document.getElementById("informacion").style.display = "none";
-    document.getElementById("sanduches").scrollIntoView();
-    conta=0;
-    contador=1;  
-    ids1();   
-};
-
-function hb() {
-    document.getElementById("menu").style.display = "block";
-    document.getElementById("screen4").style.display = "none";
-    document.getElementById("side").style.display = "none";
-    document.getElementById("informacion").style.display = "none";
-    document.getElementById("hambur").scrollIntoView();
-    conta=0;
-    contador=1;  
-    ids1();   
-};
-
 function platoscarta() {
     document.getElementById("menu").style.display = "block";
     document.getElementById("screen4").style.display = "none";
@@ -151,6 +129,40 @@ function mariscos() {
     contador=1;  
     ids1();   
 };
+
+function ceviches() {
+    document.getElementById("menu").style.display = "block";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("informacion").style.display = "none";
+    document.getElementById("ceviches").scrollIntoView();
+    conta=0;
+    contador=1;  
+    ids1();   
+};
+
+function bebidas() {
+    document.getElementById("menu").style.display = "block";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("informacion").style.display = "none";
+    document.getElementById("bebidas").scrollIntoView();
+    conta=0;
+    contador=1;  
+    ids1();   
+};
+
+function licores() {
+    document.getElementById("menu").style.display = "block";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("informacion").style.display = "none";
+    document.getElementById("licores").scrollIntoView();
+    conta=0;
+    contador=1;  
+    ids1();   
+};
+
 //   boton atras
 
 function back() {
