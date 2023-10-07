@@ -532,6 +532,28 @@ footer .rango {
 	padding: 0px 4px;
 
 }
+.screen4 .vermenu {
+
+	color: #0998f7;
+	margin: 2px 5px;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.699);
+	backdrop-filter: blur(2px);
+	border: solid 1px rgb(255, 255, 255, 05);
+	box-shadow: 1px 1px 5px #000000c4;
+	border-radius: 15px;
+	padding: 2px 5px;
+	text-align: center;
+	align-items: center;
+	display: block;
+}
+.screen4 .vermenu:hover{
+	background-color: rgb(0, 162, 255);
+	color: #ffffff;
+}
+
 
 .screen4 .mipedido p {
 	font-size: 12px;
@@ -575,6 +597,11 @@ footer .rango {
 
   }
   
+  .screen4 .totals {
+	margin: 5px;
+	font-weight: bold;
+  }
+
   .formulario__titulo,
   .formulario__subtitulo,
   .formulario__parrafo {
@@ -678,8 +705,8 @@ footer .rango {
 	border-radius: 50%;
 
   }
-  
-  .screen5  .formulario__titulo,
+
+    .screen5  .formulario__titulo,
   .formulario__subtitulo,
   .formulario__parrafo {
 	text-align: center;
