@@ -987,7 +987,7 @@ document.querySelector("#submit").addEventListener("click", e => {
     let tasks = JSON.parse(localStorage.getItem('tasks'));
     
     for (let i = 0; i < tasks.length; i++) {
-      allTasks += tasks[i].title + " Precio $ " + tasks[i].description + " %0A " + " / " + "\n";
+      allTasks += tasks[i].title + " Precio $ " + tasks[i].description + " %0A " + "\n";
     }
 //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
 let telefono = "593994572572";
