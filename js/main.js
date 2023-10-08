@@ -388,7 +388,7 @@ function agp10() {
 }
 //PLATOS A LA CARTA >
 function agp11() {
-    document.getElementById('title').value =  `POLLO A LA PLACHA`;
+    document.getElementById('title').value =  `POLLO A LA PLANCHA`;
     document.getElementById('description').value = `16.00`;
     cotizar2();
 }
@@ -436,7 +436,7 @@ function agp19() {
     cotizar2();
 }
 function agp20() {
-    document.getElementById('title').value =  `CAMARANOES AGRIDULCE`;
+    document.getElementById('title').value =  `CAMARONES AGRIDULCES`;
     document.getElementById('description').value = `16.00`;
     cotizar2();
 }
@@ -495,7 +495,7 @@ function agp30() {
     cotizar2();
 }
 function agp31() {
-    document.getElementById('title').value =  `CHAUFA DE CAMCARÓN`;
+    document.getElementById('title').value =  `CHAUFA DE CAMARÓN`;
     document.getElementById('description').value = `16.00`;
     cotizar2();
 }
@@ -545,7 +545,7 @@ function agp39() {
     cotizar2();
 }
 function agp40() {
-    document.getElementById('title').value =  `CAMARÓN REVENTADOS`;
+    document.getElementById('title').value =  `CAMARONES REVENTADOS`;
     document.getElementById('description').value = `16.00`;
     cotizar2();
 }
@@ -595,7 +595,7 @@ function agp48() {
     cotizar2();
 }
 function agp49() {
-    document.getElementById('title').value =  `TE HEALDO`;
+    document.getElementById('title').value =  `TE HELADO`;
     document.getElementById('description').value = `3.00`;
     cotizar2();
 }
@@ -612,7 +612,7 @@ function agp51() {
     cotizar2();
 }
 function agp52() {
-    document.getElementById('title').value =  `CON HIERBA BUENA`;
+    document.getElementById('title').value =  `LIMONADA CON HIERBA BUENA`;
     document.getElementById('description').value = `4.00`;
     cotizar2();
 }
