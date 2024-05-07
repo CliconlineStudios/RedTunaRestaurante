@@ -1038,25 +1038,7 @@ document.addEventListener('DOMContentLoaded', sms);
     window.open(url); 
    }
 
-  function sms (){
-    Swal.fire({
-      imageUrl: 'https://cliconlinestudios.github.io/LIGTHMOD/img/escena.png',
-      text: 'Lámparas Inteligentes LIGTHMOD - Decora tus espacios y crea la escena perfecta controlando la intensidad de luz o el color con comandos de voz en alexa o google assistant android o iOS tables o celulares Visitanos y obten descuentos especiales',
-      imageWidth: 400,
-      confirmButtonText: 'Visitar Sitio',
-      showCloseButton: 'true',
-      showCancelButton: true,
-      footer: 'Anuncio'
 
-  
-    }).then((result) => {
-      if (result.isConfirmed) {
-        ligthmod();
-
-      }
-    })
-  
-  };  
 
      
 
