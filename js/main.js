@@ -1031,12 +1031,6 @@ clearTasks();
    }  
   }); 
 
-document.addEventListener('DOMContentLoaded', sms);
-
-  function ligthmod(){
-    let url = `https://ligthmod.blogspot.com/`;
-    window.open(url); 
-   }
 
 
 
